@@ -1,11 +1,89 @@
 :root {
   --primary-color: #099d8d;
   --secondary-color: #14d9c4;
-  --framework-color: #b8b8b9;
+  --framework-color: #f1f1f1;
+  --dark-grey: #54585a;
+  --font-titles: "Rubik", sans-serif;
+  --primary-font: "Open Sans", sans-serif;
 }
-
 * {
   box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
 }
+
+/* HEADER */
+
+.header {
+  border: 1px solid red;
+}
+.header-1 {
+  background-color: var(--primary-color);
+}
+.header-nav {
+  background-color: var(--secondary-color);
+}
+
+/* MAIN */
+.main {
+  padding: 15px;
+}
+
+/* HERO */
+.hero {
+  border: 1px solid purple;
+}
+/* EQUIPO */
+.team-description h2 {
+  color: var(--secondary-color);
+  font-family: var(--font-titles);
+}
+.team-description p {
+  color: #54585a;
+  font-size: 16px;
+  font-family: var(--primary-font);
+}
+/* FORTALEZAS */
+.strengh-weakness {
+  background-color: var(--framework-color);
+}
+.strengh-weakness h3 {
+  color: var(--primary-color);
+  font-family: var(--font-titles);
+}
+.strengh-weakness p {
+  color: #54585a;
+  font-size: 16px;
+  font-family: var(--primary-font);
+}
+
+/* QUIENES SOMOS */
+.team-introduction h2 {
+  color: var(--primary-color);
+  font-size: 24px;
+  font-family: var(--font-titles);
+}
+.team-introduction h4 {
+  color: black;
+  font-size: 20px;
+  font-family: var(--primary-font);
+}
+.team-introduction p {
+  color: var(--dark-grey);
+  font-size: 16px;
+  font-family: var(--primary-font);
+}
+
+/* REDES SOCIALES */
+.team-introduction li {
+  display: inline-block;
+}
+.team-introduction li:after {
+  content: "·";
+}
+.team-introduction li:nth-last-child(1):after {
+  content: none;
+}
+/* Hemos usado los pseudoselectores que nos ha enseñado María, para añadir un punto entre iconos de RRSS. */
+
+/* FOOTER */
