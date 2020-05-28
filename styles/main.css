@@ -84,6 +84,9 @@
 .team-introduction li:nth-last-child(1):after {
   content: none;
 }
+.team-introduction a {
+  color: var(--primary-color);
+}
 /* Hemos usado los pseudoselectores que nos ha enseñado María, para añadir un punto entre iconos de RRSS. */
 
 /* FOOTER */
