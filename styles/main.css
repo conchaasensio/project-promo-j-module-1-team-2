@@ -1,15 +1,20 @@
 :root {
+  /* COLORS */
   --primary-color: #099d8d;
   --secondary-color: #14d9c4;
   --framework-color: #f1f1f1;
   --dark-grey: #54585a;
+
+  /* FONTS */
   --font-titles: "Rubik", sans-serif;
   --primary-font: "Open Sans", sans-serif;
 }
+
 * {
   box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
+  border: 1px solid red;
 }
 
 /* HEADER */
@@ -44,14 +49,14 @@
   font-family: var(--primary-font);
 }
 /* FORTALEZAS */
-.strengh-weakness {
+.strength-weakness {
   background-color: var(--framework-color);
 }
-.strengh-weakness h3 {
+.strength-weakness h3 {
   color: var(--primary-color);
   font-family: var(--font-titles);
 }
-.strengh-weakness p {
+.strength-weakness p {
   color: #54585a;
   font-size: 16px;
   font-family: var(--primary-font);
@@ -87,6 +92,5 @@
 .team-introduction a {
   color: var(--primary-color);
 }
-/* Hemos usado los pseudoselectores que nos ha enseñado María, para añadir un punto entre iconos de RRSS. */
 
 /* FOOTER */
