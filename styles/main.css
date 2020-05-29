@@ -143,3 +143,36 @@
 }
 
 /* FOOTER */
+.footer {
+  display: flex;
+  font-size: 14px;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-family: var(--primary-font);
+}
+
+.copyright {
+  color: var(--light-grey);
+  margin-top: 30px;
+}
+
+.footer-nav {
+  text-align: center;
+}
+
+.footer-nav a {
+  color: var(--dark-grey);
+}
+
+.logo {
+  width: 116px;
+  height: 45px;
+  margin-top: 30px;
+  margin-bottom: 48px;
+}
+
+.logo img {
+  width: 100%;
+}
