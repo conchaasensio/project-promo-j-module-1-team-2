@@ -16,6 +16,7 @@
   list-style-type: none;
   text-decoration: none;
   /* border: 1px solid red; */
+  padding: 0px;
 }
 
 /* HEADER */
@@ -55,10 +56,6 @@
   color: #54585a;
   font-size: 16px;
   font-family: var(--primary-font);
-}
-
-.social-media {
-  display: inline-block;
 }
 
 /* FORTALEZAS */
@@ -131,9 +128,10 @@
 }
 
 /* REDES SOCIALES */
-.team-introduction li {
+.social-media li {
   display: inline-block;
 }
+
 .team-introduction li:after {
   content: "·";
 }
