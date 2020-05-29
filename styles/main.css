@@ -44,11 +44,23 @@
   color: var(--secondary-color);
   font-family: var(--font-titles);
 }
+
+.team-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .team-description p {
   color: #54585a;
   font-size: 16px;
   font-family: var(--primary-font);
 }
+
+.social-media {
+  display: inline-block;
+}
+
 /* FORTALEZAS */
 .strength-weakness {
   background-color: var(--framework-color);
@@ -93,6 +105,16 @@
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  align-items: center;
+}
+.member-1,
+.member-2,
+.member-3,
+.member-4,
+.member-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .team-introduction h4 {
@@ -105,6 +127,7 @@
   color: var(--dark-grey);
   font-size: 16px;
   font-family: var(--primary-font);
+  text-align: center;
 }
 
 /* REDES SOCIALES */
