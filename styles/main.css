@@ -22,13 +22,47 @@
 /* HEADER */
 
 .header {
+  display: block;
   border: 1px solid red;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 .header-1 {
   background-color: var(--primary-color);
+  text-align: center;
+  font-family: var(--font-titles);
+  color: white;
+  opacity: 95%;
+  padding: 15px;
+  text-align: center;
+}
+
+.container {
+  margin: 15px;
+  padding: 0;
 }
 .header-nav {
   background-color: var(--secondary-color);
+  padding: 8px 8px;
+  opacity: 90%;
+}
+
+.header-nav-list {
+  font-family: var(--font-titles);
+  font-size: 15px;
+  line-height: 30px;
+  color: white;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.header-nav-list a {
+  color: white;
 }
 
 /* MAIN */
