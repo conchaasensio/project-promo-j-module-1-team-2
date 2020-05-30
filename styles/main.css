@@ -16,7 +16,7 @@
   list-style-type: none;
   text-decoration: none;
   /* border: 1px solid red; */
-  padding: 0px;
+  padding: 0px 0px;
 }
 
 /* HEADER */
@@ -35,25 +35,44 @@
 .main {
   padding: 15px;
 }
+/* creo que los padding deberían ir en los wrapper, porque si no la imagen del grupo y el fondo gris tienen padding */
 
 /* HERO */
+
+/* .hero -- le he puesto border para visualizar mientras no tengamos la foto de grupo */
 .hero {
-  border: 1px solid purple;
+  position: relative;
+  height: 421px;
+  border: 1px solid red;
 }
+/* .motto -- podriamos poner z-index para obligarlo a que esté siempre por encima, pero al estar definido después se queda bien. le he puestro background-color porque quiero poner un png que he subido pero no me deja.¿qué es line height? */
+.motto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: var(--framework-color);
+  height: 80px;
+  width: 290px;
+  position: relative;
+  top: -40px;
+}
+/* .motto div -- es el textto con el lema */
+.motto div {
+  box-sizing: border-box;
+  font-family: var(--primary-font);
+  font-size: 18px;
+  padding: 14px 10px 16px;
+}
+
 /* EQUIPO */
 .team-description h2 {
   color: var(--secondary-color);
   font-family: var(--font-titles);
 }
 
-.team-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .team-description p {
-  color: #54585a;
+  color: var(--dark-grey);
   font-size: 16px;
   font-family: var(--primary-font);
 }
@@ -61,6 +80,12 @@
 /* FORTALEZAS */
 .strength-weakness {
   background-color: var(--framework-color);
+  height: 579px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .strength-weakness h3 {
   color: var(--primary-color);
@@ -70,9 +95,33 @@
   color: #54585a;
   font-size: 16px;
   font-family: var(--primary-font);
+  text-align: center;
+}
+
+.strength {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.weakness {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15px;
 }
 
 /* QUIENES SOMOS */
+
+.team-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .team-introduction h2 {
   color: var(--primary-color);
