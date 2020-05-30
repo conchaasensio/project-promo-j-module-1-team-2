@@ -80,6 +80,7 @@
 /* .hero -- el atributo no-repeat no funciona para esta foto ¿? */
 
 .hero {
+  border: 1px solid red;
   position: relative;
   height: 461px;
   width: 100vw;
@@ -94,7 +95,8 @@
 }
 
 .motto {
-  display: none;
+  /* display: none; */
+  border: 1px solid red;
   background-color: white;
   position: relative;
   transform: translateY(50%);
