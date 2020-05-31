@@ -69,18 +69,16 @@
 }
 
 /* MAIN */
-.main {
+/* .main {
   padding: 15px;
-}
-
-/* .wrapper {
-  padding: 0 15px;
 } */
+
+.wrapper {
+  padding: 0 15px;
+}
 /* creo que los padding deberían ir en los wrapper, para luego cambiarlo con mediaquaries */
 
 /* HERO */
-
-/* .hero -- el atributo no-repeat no funciona para esta foto ¿? */
 
 .hero {
   position: relative;
@@ -98,7 +96,7 @@
   left: 10%;
   transform: translate(0%, -50%);
 }
-/* posibilidad de meter la imagen creada en el motto */
+/* posibilidad de meter la imagen creada en el claim */
 
 .claim-title {
   font-family: var(--primary-font);
@@ -151,12 +149,12 @@
 
 /* FORTALEZAS Y DEBILIDADES*/
 .strength-weakness {
+  background-color: var(--framework-color);
   height: 579px;
   width: 100%;
   margin: 0px;
 }
 .strength-weakness .wrapper {
-  background-color: var(--framework-color);
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -177,7 +175,6 @@
 }
 
 .strength {
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -186,7 +183,6 @@
 }
 
 .weakness {
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -206,6 +202,7 @@
   color: var(--primary-color);
   font-size: 24px;
   font-family: var(--font-titles);
+  line-height: 45px;
 }
 
 /* FOTOS */
