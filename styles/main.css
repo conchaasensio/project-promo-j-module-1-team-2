@@ -39,7 +39,9 @@
   color: white;
   opacity: 95%;
   padding: 15px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
@@ -84,12 +86,10 @@
   position: relative;
   height: 421px;
   width: 100%;
-  background-image: url(../images/prueba.png);
-  background-position: top;
 }
 
 .claim {
-  background-color: white;
+  background-color: var(--light-grey);
   position: relative;
   height: 40px;
   width: 80%;
