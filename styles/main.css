@@ -71,9 +71,6 @@
 }
 
 /* MAIN */
-/* .main {
-  padding: 15px;
-} */
 
 .wrapper {
   padding: 0 15px;
@@ -87,18 +84,21 @@
   height: 421px;
   width: 100%;
 }
-
+.group-image {
+  height: 421px;
+  width: 100%;
+}
 .claim {
-  background-color: var(--light-grey);
   position: relative;
   height: 40px;
   width: 80%;
   left: 10%;
-  transform: translate(0%, -50%);
+  transform: translate(0%, -70%);
 }
 /* posibilidad de meter la imagen creada en el claim */
 
 .claim-title {
+  background-color: var(--framework-color);
   font-family: var(--primary-font);
   font-size: 18px;
   margin: 0px;
@@ -109,7 +109,6 @@
 
 /* EQUIPO */
 .team-description {
-  border: 1px solid red;
   height: 504px;
   width: 100%;
   background-color: white;
