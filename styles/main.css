@@ -15,8 +15,7 @@
   box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
-  /* border: 1px solid red; */
-  padding: 0px 0px;
+  padding: 0;
   margin: 0;
   color: inherit;
 }
@@ -36,8 +35,8 @@
   display: block;
   position: fixed;
   width: 100%;
-  top: 0;
-  left: 0;
+  /* top: 0;
+  left: 0; */
   z-index: 999;
 }
 
@@ -45,7 +44,6 @@
   padding: 0;
 }
 
-/* le he metido un z-index para que se vea siempre por delante, porque al definir el hero más abajo se sobrepone al header */
 .header-1 {
   background-color: var(--primary-color);
   text-align: center;
@@ -92,20 +90,17 @@
   width: 100%;
 }
 .claim-title {
+  background-color: var(--framework-color);
   position: relative;
   height: 80px;
-  width: 100%;
-  left: 0;
-  /* transform: translate(0%, -50%); */
+  transform: translate(0%, -50%);
   margin: 0px 15px;
 }
-/* posibilidad de meter la imagen creada en el claim */
 
 .claim-title span {
   display: block;
   text-align: left;
   line-height: 1.389rem;
-  background-color: var(--framework-color);
   font-family: var(--primary-font);
   font-size: 18px;
 }
@@ -114,7 +109,6 @@
 .team-description {
   height: 504px;
   background-color: white;
-  padding: 0px 0px;
 }
 
 .team-description .wrapper {
@@ -142,14 +136,15 @@
 .square {
   height: 30px;
   width: 30px;
-  position: relative;
-  transform: translate(0%, 50%) rotate(45deg);
+  position: absolute;
+  transform: translate(0%, -50%) rotate(45deg);
   left: 50%;
   background-color: white;
 }
 
 /* FORTALEZAS Y DEBILIDADES*/
 .strength-weakness {
+  background-color: var(--framework-color);
   height: 579px;
   width: 100%;
   margin: 0px;
@@ -159,7 +154,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  background-color: var(--framework-color);
+  height: 100%;
 }
 .strength-weakness h3 {
   color: var(--primary-color);
@@ -179,7 +174,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px 0px;
 }
 
 .weakness {
@@ -187,7 +181,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 45px;
 }
 
 /* QUIENES SOMOS */
