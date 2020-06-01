@@ -144,12 +144,12 @@
 
 /* FORTALEZAS Y DEBILIDADES*/
 .strength-weakness {
-  background-color: var(--framework-color);
   height: 579px;
   width: 100%;
   margin: 0px;
 }
 .strength-weakness .wrapper {
+  background-color: var(--framework-color);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
