@@ -17,6 +17,14 @@
   text-decoration: none;
   /* border: 1px solid red; */
   padding: 0px 0px;
+  margin: 0;
+  color: inherit;
+}
+
+/* WRAPPER */
+
+.wrapper {
+  padding: 0 15px;
 }
 
 /* HEADER */
@@ -31,6 +39,10 @@
   z-index: 999;
 }
 
+.header .wrapper {
+  padding: 0;
+}
+
 /* le he metido un z-index para que se vea siempre por delante, porque al definir el hero más abajo se sobrepone al header */
 .header-1 {
   background-color: var(--primary-color);
@@ -38,16 +50,11 @@
   font-family: var(--font-titles);
   color: white;
   opacity: 95%;
-  padding: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.container {
-  margin: 15px;
-  padding: 0;
-}
 .header-nav {
   background-color: var(--secondary-color);
   padding: 8px 8px;
@@ -66,16 +73,7 @@
   text-align: center;
 }
 
-.header-nav-list a {
-  color: white;
-}
-
 /* MAIN */
-
-.wrapper {
-  padding: 0 15px;
-}
-/* creo que los padding deberían ir en los wrapper, para luego cambiarlo con mediaquaries */
 
 /* HERO */
 
@@ -84,27 +82,30 @@
   height: 421px;
   width: 100%;
 }
+.hero .wrapper {
+  padding: 0;
+}
 .group-image {
   height: 421px;
   width: 100%;
 }
-.claim {
+.claim-title {
   position: relative;
-  height: 40px;
-  width: 80%;
-  left: 10%;
-  transform: translate(0%, -70%);
+  height: 80px;
+  width: 100%;
+  left: 0;
+  /* transform: translate(0%, -50%); */
+  margin: 0px 15px;
 }
 /* posibilidad de meter la imagen creada en el claim */
 
-.claim-title {
+.claim-title span {
+  display: block;
+  text-align: left;
+  line-height: 1.389rem;
   background-color: var(--framework-color);
   font-family: var(--primary-font);
   font-size: 18px;
-  margin: 0px;
-  padding: 0px 15px;
-  line-height: 1.389rem;
-  text-align: left;
 }
 
 /* EQUIPO */
