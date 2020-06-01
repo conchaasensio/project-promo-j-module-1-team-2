@@ -209,7 +209,6 @@
 
 /* FOTOS */
 
-/* El color del borde es otro, tenemos que encontrar cuál es. */
 .team-picture {
   border: 3px solid var(--light-grey);
   border-radius: 4px;
@@ -272,8 +271,6 @@
 
 /* FOOTER */
 .footer {
-  position: relative;
-
   border-top: 1px solid var(--light-grey);
   width: 100%;
   height: 100%;
