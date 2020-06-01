@@ -273,6 +273,7 @@
   /* align-content: center; */
   align-items: center;
   font-family: var(--primary-font);
+  border-top: 1px solid var(--light-grey);
 }
 
 .copyright {
