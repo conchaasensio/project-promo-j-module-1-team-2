@@ -78,13 +78,12 @@
 /* HERO */
 
 .hero {
-  position: relative;
+  position: absolute;
   height: 421px;
   width: 100%;
-}
-.hero .wrapper {
   padding: 0;
 }
+
 .group-image {
   height: 421px;
 }
@@ -106,23 +105,23 @@
 
 /* EQUIPO */
 .team-description {
-  height: 450px;
+  height: 350px;
   background-color: white;
 }
 
-.team-description .wrapper {
+.team-description {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   height: 100%;
+  margin-top: 30px;
 }
 
 .team-description h2 {
   color: var(--secondary-color);
   font-family: var(--font-titles);
   line-height: 1.875rem;
-  margin: 0;
 }
 
 .team-description p {
@@ -131,6 +130,7 @@
   font-family: var(--primary-font);
   line-height: 1.5rem;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .square {
@@ -138,7 +138,7 @@
   width: 30px;
   position: absolute;
   transform: translate(0%, -50%) rotate(45deg);
-  left: 50%;
+  left: 46.5%;
   background-color: white;
 }
 
@@ -148,7 +148,7 @@
   width: 100%;
   margin: 0px;
 }
-.strength-weakness .wrapper {
+.strength-weakness {
   background-color: var(--framework-color);
   display: flex;
   flex-direction: column;
