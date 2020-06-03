@@ -87,7 +87,6 @@
 }
 .group-image {
   height: 421px;
-  width: 100%;
 }
 .claim-title {
   background-color: var(--framework-color);
@@ -107,7 +106,7 @@
 
 /* EQUIPO */
 .team-description {
-  height: 504px;
+  height: 450px;
   background-color: white;
 }
 
@@ -123,6 +122,7 @@
   color: var(--secondary-color);
   font-family: var(--font-titles);
   line-height: 1.875rem;
+  margin: 0;
 }
 
 .team-description p {
