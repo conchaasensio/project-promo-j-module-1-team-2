@@ -33,18 +33,18 @@
 
 /* HEADER */
 
-.header .wraper {
-  display: flex;
-  justify-content: center;
+.header {
+  display: block;
   position: fixed;
   width: 100%;
-  top: 0;
+  /* top: 0;
+  left: 0; */
   z-index: 999;
 }
 
-// .header .wrapper {
-//   padding: 0;
-// }
+.header .wrapper {
+  padding: 0;
+}
 
 .header-1 {
   background-color: var(--primary-color);
