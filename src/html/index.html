@@ -20,82 +20,12 @@
   </head>
 
   <body>
-    <header class="header">
-      <div class="wrapper">
-        <section class="header-1">
-          <h1 class="header-1-title">
-            <span class="team-logo">
-              <img
-                src="./assets/images/icono-codebusters.png"
-                alt="Icono del equipo"
-                width="60px"
-                height="50px"
-              />
-            </span>
-            <span>CODEBUSTERS</span>
-          </h1>
-        </section>
-        <nav class="header-nav">
-          <ul class="header-nav-list">
-            <li class="header-nav-item"><a href="#team">EQUIPO</a></li>
-            <li class="header-nav-item">
-              <a href="#about-us">QUIÉNES SOMOS</a>
-            </li>
-            <li class="header-nav-item"><a href="#contact">CONTACTO</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+    <include src="./partials/header.html"></include>
     <main class="main">
       <div class="wrapper">
-        <section class="hero">
-          <div class="group-image">
-            <img
-              src="./assets/images/team-picture.png"
-              alt="Foto de equipo"
-              width="100%"
-              height="100%"
-            />
-          </div>
-          <div class="claim-title">
-            <span><b>T</b>ime to </span>
-            <span><b>R</b>einvent </span>
-            <span><b>Y</b>ourself </span>
-          </div>
-        </section>
-        <section class="team-description">
-          <h2 id="team">EQUIPO</h2>
-          <p>
-            Somos diversas y multidisciplinares. Hemos querido y nos hemos
-            sabido reinventar en el maravilloso mundo de la diversidad digital.
-            Nuestro bagaje pasado por ámbitos tan diversos como la biología, el
-            derecho o el trabajo social nos aportan la base para llegar a
-            cualquier público de una manera empática y comunicativa. Aunque
-            acabamos de comenzar, ¡esto no es más que el principio!
-          </p>
-          <div class="square"></div>
-        </section>
-        <section class="strength-weakness">
-          <div class="strength">
-            <h3>Fortalezas</h3>
-            <p>
-              Reinvención, adaptación y programación con buena técnica y muchas
-              ganas, no nos falta la sonrisa y el buen ánimo para mejorar cada
-              día, defendemos la comunicación constante y la cooperación entre
-              nosotras y con el cliente. Comprometidas con el código tanto como
-              con nosotras mismas.
-            </p>
-          </div>
-          <div class="weakness">
-            <h3>Debilidades</h3>
-            <p>
-              Somos programadoras junior y aún estamos en proceso de formación
-              pero con un poco de paciencia sumado a las ganas y constancia que
-              nos sobran, ¡formamos el perfecto equipo que no deja a nadie
-              atrás!
-            </p>
-          </div>
-        </section>
+        <include src="./partials/hero.html"></include>
+        <include src="./partials/team.html"></include>
+        <include src="./partials/strength-weakness.html"></include>
         <section class="team-introduction">
           <h2 id="about-us">QUIÉNES SOMOS</h2>
           <article class="member-1">
@@ -373,24 +303,6 @@
         </section>
       </div>
     </main>
-    <footer class="footer">
-      <div class="wrapper">
-        <div>
-          <p class="copyright">Codebusters &copy; 2020</p>
-        </div>
-        <nav class="footer-nav">
-          <ul>
-            <li><a href="#team">EQUIPO</a></li>
-            <li><a href="#about-us">QUIÉNES SOMOS</a></li>
-            <li><a href="#contact">CONTACTO</a></li>
-          </ul>
-        </nav>
-        <div class="logo">
-          <a href="#" title="Ir a la Home">
-            <img src="./assets/images/logo-adalab.png" alt="logo Adalab" />
-          </a>
-        </div>
-      </div>
-    </footer>
+    <include src="./partials/footer.html"></include>
   </body>
 </html>

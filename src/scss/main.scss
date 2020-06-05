@@ -25,9 +25,7 @@
 /* WRAPPER */
 
 .wrapper {
-  padding: 0 15px;
   max-width: 1200px;
-  margin: auto;
   width: 100%;
 }
 
@@ -37,13 +35,8 @@
   display: block;
   position: fixed;
   width: 100%;
-  /* top: 0;
-  left: 0; */
+  top: 0;
   z-index: 999;
-}
-
-.header .wrapper {
-  padding: 0;
 }
 
 .header-1 {
@@ -80,21 +73,21 @@
 /* HERO */
 
 .hero {
-  position: absolute;
-  height: 421px;
+  height: 467px;
   width: 100%;
-  padding: 0;
 }
 
-.group-image {
+.group-image img {
   height: 421px;
+  width: 100%;
 }
 .claim-title {
   background-color: var(--framework-color);
   position: relative;
   height: 80px;
   transform: translate(0%, -50%);
-  margin: 0px 15px;
+  margin: 0rem 0.8333rem;
+  padding: 0.5556rem 0.8333rem;
 }
 
 .claim-title span {
@@ -106,24 +99,27 @@
 }
 
 /* EQUIPO */
-.team-description {
-  height: 350px;
-  background-color: white;
+
+.wrapper .team-description {
+  padding: 0 15px;
 }
 
 .team-description {
+  height: fit-content;
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   height: 100%;
-  margin-top: 30px;
+  margin: 30px 0px;
 }
 
 .team-description h2 {
   color: var(--secondary-color);
   font-family: var(--font-titles);
   line-height: 1.875rem;
+  margin-bottom: 0.625rem;
 }
 
 .team-description p {
@@ -132,43 +128,42 @@
   font-family: var(--primary-font);
   line-height: 1.5rem;
   text-align: center;
-  margin-bottom: 30px;
 }
 
 .square {
   height: 30px;
   width: 30px;
-  position: absolute;
-  transform: translate(0%, -50%) rotate(45deg);
-  left: 46.5%;
+  position: relative;
+  transform: translate(0%, 150%) rotate(45deg);
   background-color: white;
 }
 
 /* FORTALEZAS Y DEBILIDADES*/
-.strength-weakness {
-  height: 579px;
-  width: 100%;
-  margin: 0px;
+.wrapper .strength-weakness {
+  padding: 0 15px;
 }
 .strength-weakness {
+  height: fit-content;
+  width: 100%;
   background-color: var(--framework-color);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  height: 100%;
 }
 .strength-weakness h3 {
   color: var(--primary-color);
   font-family: var(--font-titles);
   font-size: 22px;
   line-height: 2.045rem;
+  padding-top: 30px;
 }
 .strength-weakness p {
   color: #54585a;
   font-size: 16px;
   font-family: var(--primary-font);
   text-align: center;
+  padding: 0 5px;
 }
 
 .strength {
@@ -183,10 +178,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 45px;
 }
 
 /* QUIENES SOMOS */
-.adalabers-cards {
+.team-introduction {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -201,7 +197,7 @@
   align-items: center;
 }
 
-.adalabers-cards h2 {
+.team-introduction h2 {
   color: var(--primary-color);
   font-family: var(--font-titles);
   line-height: 45px;
@@ -225,10 +221,11 @@
 
 /* DESCRIPCIONES */
 
-.adalaber-1,
-.adalaber-2,
-.adalaber-3,
-.adalaber-4 {
+.member-1,
+.member-2,
+.memgiber-3,
+.member-4,
+.member-5 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -236,14 +233,14 @@
   padding: 15px;
 }
 
-.adalabers-cards h4 {
+.team-introduction h4 {
   color: black;
   font-size: 20px;
   font-family: var(--primary-font);
   line-height: 45px;
 }
 
-.adalabers-cards p {
+.team-introduction p {
   color: var(--dark-grey);
   font-family: var(--primary-font);
   text-align: center;
@@ -260,13 +257,13 @@
   line-height: 30px;
 }
 
-.adalabers-cards li:after {
+.team-introduction li:after {
   content: "·";
 }
-.adalabers-cards li:nth-last-child(1):after {
+.team-introduction li:nth-last-child(1):after {
   content: none;
 }
-.adalabers-cards a {
+.team-introduction a {
   color: var(--primary-color);
 }
 
