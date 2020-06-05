@@ -28,7 +28,6 @@
   max-width: 1200px;
   margin: auto;
   width: 100%;
-  padding: 15px;
 }
 
 /* HEADER */
@@ -337,6 +336,24 @@
 // MEDIAQUERIES
 
 @media all and (min-width: 768px) {
+  //HEADER
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .header-1 {
+    display: block;
+    text-align: left;
+    padding: 15px 80px 15px 80px;
+  }
+
+  .header-nav {
+    display: none;
+  }
+
   // QUIÉNES SOMOS
   .adalabers-cards h2 {
     margin-bottom: 41px;
@@ -403,6 +420,10 @@
 }
 
 @media all and (min-width: 1200px) {
+  // HEADER
+
+  .header-1 {
+  }
   // QUIÉNES SOMOS
 
   .team-picture {
