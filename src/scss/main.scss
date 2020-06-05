@@ -22,6 +22,8 @@
   color: inherit;
 }
 
+// margin:auto centra las imagenes de nuevo. a lo mejor margin auto a las fotos tb lo centra
+
 /* WRAPPER */
 
 .wrapper {
@@ -110,8 +112,8 @@
   position: relative;
   height: 80px;
   transform: translate(0%, -50%);
-  margin: 0rem 0.8333rem;
-  padding: 0.5556rem 0.8333rem;
+  margin: 0 15px;
+  padding: 10px 15px;
 }
 
 .claim-title span {
@@ -143,7 +145,7 @@
   color: var(--secondary-color);
   font-family: var(--font-titles);
   line-height: 1.875rem;
-  margin-bottom: 0.625rem;
+  margin-bottom: 15px;
 }
 
 .team-description p {
@@ -180,14 +182,17 @@
   font-family: var(--font-titles);
   font-size: 22px;
   line-height: 2.045rem;
-  padding-top: 30px;
+  padding: 30px 0 10px;
+  width: 100%;
+  text-align: center;
 }
 .strength-weakness p {
   color: #54585a;
   font-size: 16px;
   font-family: var(--primary-font);
   text-align: center;
-  padding: 0 5px;
+  padding: 0 15px;
+  line-height: 1.5rem;
 }
 
 .strength {
@@ -352,6 +357,66 @@
 
   .header-nav {
     display: none;
+  }
+
+  //HERO
+
+  .hero {
+    height: 421px;
+  }
+
+  .claim-title {
+    opacity: 80%;
+    width: 441px;
+    transform: translate(0%, -105%);
+    margin: 0rem 2.5rem;
+    padding: 0.5556rem 1.667rem;
+  }
+
+  //EQUIPO
+
+  .wrapper .team-description {
+    padding: 0 45px;
+  }
+
+  .team-description {
+    margin: 45px 0px 30px;
+    height: 219px;
+  }
+
+  .square {
+    transform: translate(0%, 170%) rotate(45deg);
+  }
+
+  // FORTALEZAS Y DEBILIDADES
+  .wrapper .strength-weakness {
+    padding: 0 45px;
+  }
+
+  .strength-weakness {
+    flex-direction: row;
+    justify-content: space-between;
+    height: 333px;
+  }
+
+  .strength-weakness h3 {
+    padding: 0;
+    margin-bottom: 15px;
+  }
+
+  .strength-weakness p {
+    padding: 0;
+  }
+
+  .strength {
+    width: 324px;
+    height: 239px;
+    margin: 47px 0 45px;
+  }
+
+  .weakness {
+    width: 324px;
+    height: 239px;
   }
 
   // QUIÉNES SOMOS
