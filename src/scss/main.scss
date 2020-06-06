@@ -310,18 +310,18 @@
   align-items: center;
   font-family: var(--primary-font);
   bottom: 0;
-  margin-top: 30px;
+  // margin-top: 30px;
   height: 250px;
 }
 
 .copyright {
   color: var(--light-grey);
-  margin-top: 30px;
-  margin-bottom: 20px;
 }
 
 .footer-nav {
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 .footer-nav a {
@@ -331,8 +331,7 @@
 .logo {
   width: 116px;
   height: 45px;
-  margin-top: 30px;
-  margin-bottom: 48px;
+  padding-bottom: 45px;
 }
 
 .logo img {
