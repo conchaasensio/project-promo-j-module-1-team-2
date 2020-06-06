@@ -53,7 +53,8 @@
 .header-1 {
   background-color: var(--primary-color);
   text-align: center;
-  padding: 15px 80px 15px 80px;
+  padding: 015px 80px 15px 80px;
+  margin: 0;
   // display: flex;
   // flex-direction: row;
   // justify-content: center;
@@ -72,13 +73,15 @@
   color: white;
   line-height: 30px;
   position: relative;
+  padding-top: 0;
 }
 
 .team-logo {
   display: block;
   width: 70px;
-  // position: relative;
-  top: 10px;
+  position: relative;
+  top: 40px;
+  right: 60px;
 }
 
 .team-logo img {
@@ -355,6 +358,33 @@
 
 @media all and (min-width: 768px) {
   //HEADER
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header-1 {
+    flex-grow: 1;
+    text-align: left;
+  }
+
+  .header-1-title {
+    padding-left: 10px;
+  }
+
+  .header-nav {
+    background-color: var(--primary-color);
+    width: 50%;
+  }
+
+  .header-nav-list {
+    justify-content: flex-end;
+  }
+
+  .header-nav-list a {
+    padding: 15px;
+  }
 
   //HERO
 
