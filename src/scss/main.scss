@@ -120,6 +120,7 @@
   text-align: left;
   line-height: 1.389rem;
   font-family: var(--primary-font);
+  font-weight: 600;
   font-size: 18px;
 }
 
@@ -137,7 +138,7 @@
   justify-content: space-evenly;
   align-items: center;
   height: 100%;
-  margin: 30px 0px;
+  padding: 30px 0px;
 }
 
 .team-description h2 {
@@ -159,7 +160,7 @@
   height: 30px;
   width: 30px;
   position: relative;
-  transform: translate(0%, 150%) rotate(45deg);
+  transform: translate(0%, 50%) rotate(45deg);
   background-color: white;
 }
 
@@ -390,8 +391,8 @@
     opacity: 80%;
     width: 441px;
     transform: translate(0%, -105%);
-    margin: 0rem 2.5rem;
-    padding: 0.5556rem 1.667rem;
+    margin: 0 45px;
+    padding: 10px 30px;
   }
 
   //EQUIPO
@@ -401,17 +402,17 @@
   }
 
   .team-description {
-    margin: 45px 0px 30px;
-    height: 219px;
+    padding: 45px 0px 30px;
+    height: 255px;
   }
 
   .square {
-    transform: translate(0%, 170%) rotate(45deg);
+    transform: translate(0%, 100%) rotate(45deg);
   }
 
   // FORTALEZAS Y DEBILIDADES
   .wrapper .strength-weakness {
-    padding: 0 45px;
+    padding: 0 45px 13px;
   }
 
   .strength-weakness {
@@ -432,7 +433,6 @@
   .strength {
     width: 324px;
     height: 239px;
-    margin: 47px 0 45px;
   }
 
   .weakness {
@@ -514,6 +514,65 @@
 
   .header-nav {
     padding-right: 138px;
+  }
+
+  //HERO
+  .hero {
+    height: 550px;
+  }
+
+  .group-image img {
+    height: 550px;
+  }
+
+  .claim-title {
+    height: 90px;
+    width: 574px;
+    margin: 0 138px;
+    transform: translate(0%, -103%);
+  }
+
+  .claim-title span {
+    line-height: 1.458rem;
+    font-size: 24px;
+  }
+
+  //EQUIPO
+
+  .wrapper .team-description {
+    padding: 45px 138px 60px;
+  }
+
+  .team-description {
+    height: 300px;
+  }
+
+  .team-description p {
+    padding: 0 161px 0;
+    opacity: 67%;
+  }
+
+  .square {
+    transform: translate(0%, 250%) rotate(45deg);
+  }
+
+  // FORTALEZAS Y DEBILIDADES
+  .wrapper .strength-weakness {
+    padding: 0 138px 10px;
+  }
+
+  .strength-weakness {
+    height: 309px;
+  }
+
+  .strength {
+    width: 439px;
+    height: 204px;
+  }
+
+  .weakness {
+    width: 439px;
+    height: 204px;
   }
 
   // QUIÉNES SOMOS
