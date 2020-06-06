@@ -41,24 +41,6 @@
   top: 0;
   z-index: 999;
   opacity: 95%;
-  // padding: 15px 80px 15px 80px;
-}
-
-// .header .wrapper {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-// }
-
-.header-1 {
-  background-color: var(--primary-color);
-  text-align: center;
-  padding: 015px 80px 15px 80px;
-  margin: 0;
-  // display: flex;
-  // flex-direction: row;
-  // justify-content: center;
-  // align-items: center;
 }
 
 .header-1 {
@@ -66,14 +48,16 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 0;
-  padding: 0;
+  background-color: var(--primary-color);
+  text-align: center;
+  padding: 15px 80px 15px 80px;
 }
 
 .header-1-title {
   display: block;
   font-family: var(--font-titles);
   color: white;
+  font-size: 16px;
   line-height: 30px;
   text-align: center;
   width: 160px;
@@ -81,7 +65,7 @@
 
 .team-logo {
   display: block;
-  width: 70px;
+  width: 10px;
   text-align: center;
   position: absolute;
   transform: translate(-70px, -10px);
@@ -108,10 +92,6 @@
   align-items: center;
   text-align: center;
 }
-
-// .header-nav-list a {
-//   padding: 15px;
-// }
 
 /* MAIN */
 
@@ -372,6 +352,9 @@
     align-items: center;
     flex-grow: 1;
     text-align: left;
+    padding-left: 45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 
   .header-1-title {
@@ -385,6 +368,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-right: 45px;
   }
 
   .header-nav-list {
@@ -393,7 +377,7 @@
   }
 
   .header-nav-list a {
-    padding: 15px;
+    padding: 18px;
   }
 
   //HERO
@@ -525,7 +509,13 @@
   // HEADER
 
   .header-1 {
+    padding-left: 142px;
   }
+
+  .header-nav {
+    padding-right: 138px;
+  }
+
   // QUIÉNES SOMOS
 
   .team-picture {
