@@ -343,22 +343,6 @@
 @media all and (min-width: 768px) {
   //HEADER
 
-  .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .header-1 {
-    display: block;
-    text-align: left;
-    padding: 15px 80px 15px 80px;
-  }
-
-  .header-nav {
-    display: none;
-  }
-
   //HERO
 
   .hero {
