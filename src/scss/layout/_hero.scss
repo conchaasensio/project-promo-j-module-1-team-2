@@ -1,5 +1,3 @@
-// HERO
-
 .hero {
   height: 467px;
   width: 100%;
@@ -9,6 +7,7 @@
   height: 421px;
   width: 100%;
 }
+
 .claim-title {
   background-color: $framework-color;
   position: relative;
@@ -16,7 +15,8 @@
   transform: translate(0%, -50%);
   margin: 0 15px;
   padding: 10px 15px;
-  & span {
+
+  span {
     display: block;
     text-align: left;
     line-height: 1.389rem;
@@ -27,8 +27,6 @@
 }
 
 @media all and (min-width: 768px) {
-  //HERO
-
   .hero {
     height: 421px;
   }
@@ -43,7 +41,6 @@
 }
 
 @media all and (min-width: 1200px) {
-  //HERO
   .hero {
     height: 550px;
   }
@@ -57,7 +54,7 @@
     width: 574px;
     margin: 0 138px;
     transform: translate(0%, -103%);
-    & span {
+    span {
       line-height: 1.458rem;
       font-size: 24px;
     }
