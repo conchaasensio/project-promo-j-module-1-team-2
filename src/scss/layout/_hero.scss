@@ -1,0 +1,65 @@
+// HERO
+
+.hero {
+  height: 467px;
+  width: 100%;
+}
+
+.group-image img {
+  height: 421px;
+  width: 100%;
+}
+.claim-title {
+  background-color: $framework-color;
+  position: relative;
+  height: 80px;
+  transform: translate(0%, -50%);
+  margin: 0 15px;
+  padding: 10px 15px;
+  & span {
+    display: block;
+    text-align: left;
+    line-height: 1.389rem;
+    font-family: $font-main;
+    font-weight: 600;
+    font-size: 18px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  //HERO
+
+  .hero {
+    height: 421px;
+  }
+
+  .claim-title {
+    opacity: 80%;
+    width: 441px;
+    transform: translate(0%, -105%);
+    margin: 0 45px;
+    padding: 10px 30px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  //HERO
+  .hero {
+    height: 550px;
+  }
+
+  .group-image img {
+    height: 550px;
+  }
+
+  .claim-title {
+    height: 90px;
+    width: 574px;
+    margin: 0 138px;
+    transform: translate(0%, -103%);
+    & span {
+      line-height: 1.458rem;
+      font-size: 24px;
+    }
+  }
+}
