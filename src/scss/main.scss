@@ -22,8 +22,6 @@
   color: inherit;
 }
 
-// margin:auto centra las imagenes de nuevo. a lo mejor margin auto a las fotos tb lo centra
-
 /* WRAPPER */
 
 .wrapper {
@@ -252,10 +250,7 @@
 
 /* DESCRIPCIONES */
 
-.adalaber-1,
-.adalaber-2,
-.adalaber-3,
-.adalaber-4 {
+.adalaber {
   display: flex;
   flex-direction: column;
   align-items: center;
