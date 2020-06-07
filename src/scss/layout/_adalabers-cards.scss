@@ -6,23 +6,42 @@
   justify-content: center;
   align-items: center;
   padding: 30px 0px;
+  h2 {
+    color: $primary-color;
+    font-family: $font-titles;
+    font-size: 1.5rem;
+    line-height: 45px;
+    width: 100%;
+    text-align: center;
+  }
+  h4 {
+    color: $dark-color;
+    font-size: 1.25rem;
+    font-family: $font-main;
+    line-height: 45px;
+  }
+  p {
+    color: $dark-grey;
+    font-family: $font-main;
+    text-align: center;
+    line-height: 24px;
+  }
   /* height: 200px;
     width: 443px; */
+  li:after {
+    content: "·";
+  }
+  li:nth-last-child(1):after {
+    content: none;
+  }
+  a {
+    color: $primary-color;
+  }
 }
 
 .team-text {
   text-align: center;
 }
-
-.adalabers-cards h2 {
-  color: $primary-color;
-  font-family: $font-titles;
-  line-height: 45px;
-  width: 100%;
-  text-align: center;
-}
-
-/* FOTOS */
 
 .team-picture {
   border: 3px solid $light-grey;
@@ -30,13 +49,10 @@
   width: 180px;
   height: 180px;
   overflow: hidden;
+  img {
+    width: 100%;
+  }
 }
-
-.team-picture img {
-  width: 100%;
-}
-
-/* DESCRIPCIONES */
 
 .adalaber {
   display: flex;
@@ -46,55 +62,30 @@
   padding: 15px;
 }
 
-.adalabers-cards h4 {
-  color: $dark-color;
-  font-size: 20px;
-  font-family: $font-main;
-  line-height: 45px;
-}
-
-.adalabers-cards p {
-  color: $dark-grey;
-  font-family: $font-main;
-  text-align: center;
-  line-height: 24px;
-}
-
-/* REDES SOCIALES */
 .social-media {
-  margin-top: 15px;
+  padding-top: 20px;
 }
-
-.social-media li {
+li {
   display: inline-block;
   line-height: 30px;
-}
-
-.adalabers-cards li:after {
-  content: "·";
-}
-.adalabers-cards li:nth-last-child(1):after {
-  content: none;
-}
-.adalabers-cards a {
-  color: $primary-color;
+  padding-bottom: 30px;
 }
 
 @media all and (min-width: 768px) {
   // QUIÉNES SOMOS
   .adalabers-cards h2 {
-    margin-bottom: 41px;
+    padding-bottom: 41px;
   }
 
   .adalabers-cards {
-    width: 767px;
+    // width: 767px;
     max-height: 1485px;
     padding: 44px;
   }
 
   .team-picture {
-    width: 205px;
-    height: 205px;
+    width: 206px;
+    height: 206px;
   }
 
   .adalaber {
@@ -156,4 +147,54 @@
   .adalabers-cards {
     width: 1200px;
   }
+
+  .adalaber {
+    padding-bottom: 60px;
+    border: 1px solid red;
+  }
 }
+
+// .adalaber:nth-of-type(odd) {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// .adalaber:nth-of-type(even) {
+//   display: flex;
+//   flex-direction: row-reverse;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// .adalaber:nth-of-type(odd) p {
+//   text-align: left;
+//   max-width: 440px;
+//   padding-bottom: 15px;
+// }
+
+// .adalaber:nth-of-type(even) p {
+//   text-align: right;
+//   max-width: 440px;
+//   padding-bottom: 15px;
+// }
+
+// .adalaber:nth-of-type(odd) .team-text {
+//   /* height: 310px;
+//   max-width: 443px; */
+//   text-align: left;
+//   padding-left: 31px;
+// }
+
+// .adalaber:nth-of-type(even) .team-text {
+//   /* height: 310px;
+//   max-width: 443px; */
+//   text-align: right;
+//   padding-right: 31px;
+// }
+
+// .social-media li {
+//   padding-top: 9;
+// }
+// }
