@@ -8,6 +8,14 @@
   width: 100%;
 }
 
+.image-1 {
+  display: block;
+}
+
+.image-2 {
+  display: none;
+}
+
 .claim-title {
   background-color: $framework-color;
   position: relative;
@@ -31,10 +39,18 @@
     height: 421px;
   }
 
+  .image-1 {
+    display: none;
+  }
+
+  .image-2 {
+    display: block;
+  }
+
   .claim-title {
     opacity: 80%;
     width: 441px;
-    transform: translate(0%, -105%);
+    transform: translate(0%, -100%);
     margin: 0 45px;
     padding: 10px 30px;
   }
@@ -53,7 +69,6 @@
     height: 90px;
     width: 574px;
     margin: 0 138px;
-    transform: translate(0%, -103%);
     span {
       line-height: 1.458rem;
       font-size: 24px;
