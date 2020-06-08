@@ -6,42 +6,23 @@
   justify-content: center;
   align-items: center;
   padding: 30px 0px;
-  h2 {
-    color: $primary-color;
-    font-family: $font-titles;
-    font-size: 1.5rem;
-    line-height: 45px;
-    width: 100%;
-    text-align: center;
-  }
-  h4 {
-    color: $dark-color;
-    font-size: 1.25rem;
-    font-family: $font-main;
-    line-height: 45px;
-  }
-  p {
-    color: $dark-grey;
-    font-family: $font-main;
-    text-align: center;
-    line-height: 24px;
-  }
   /* height: 200px;
     width: 443px; */
-  li:after {
-    content: "·";
-  }
-  li:nth-last-child(1):after {
-    content: none;
-  }
-  a {
-    color: $primary-color;
-  }
 }
 
 .team-text {
   text-align: center;
 }
+
+.adalabers-cards h2 {
+  color: $primary-color;
+  font-family: $font-titles;
+  line-height: 45px;
+  width: 100%;
+  text-align: center;
+}
+
+/* FOTOS */
 
 .team-picture {
   border: 3px solid $light-grey;
@@ -49,10 +30,13 @@
   width: 180px;
   height: 180px;
   overflow: hidden;
-  img {
-    width: 100%;
-  }
 }
+
+.team-picture img {
+  width: 100%;
+}
+
+/* DESCRIPCIONES */
 
 .adalaber {
   display: flex;
@@ -62,30 +46,55 @@
   padding: 15px;
 }
 
-.social-media {
-  padding-top: 20px;
+.adalabers-cards h4 {
+  color: $dark-color;
+  font-size: 20px;
+  font-family: $font-main;
+  line-height: 45px;
 }
-li {
+
+.adalabers-cards p {
+  color: $dark-grey;
+  font-family: $font-main;
+  text-align: center;
+  line-height: 24px;
+}
+
+/* REDES SOCIALES */
+.social-media {
+  margin-top: 15px;
+}
+
+.social-media li {
   display: inline-block;
   line-height: 30px;
-  padding-bottom: 30px;
+}
+
+.adalabers-cards li:after {
+  content: "·";
+}
+.adalabers-cards li:nth-last-child(1):after {
+  content: none;
+}
+.adalabers-cards a {
+  color: $primary-color;
 }
 
 @media all and (min-width: 768px) {
   // QUIÉNES SOMOS
   .adalabers-cards h2 {
-    padding-bottom: 41px;
+    margin-bottom: 41px;
   }
 
   .adalabers-cards {
-    // width: 767px;
+    width: 767px;
     max-height: 1485px;
     padding: 44px;
   }
 
   .team-picture {
-    width: 206px;
-    height: 206px;
+    width: 205px;
+    height: 205px;
   }
 
   .adalaber {
@@ -147,54 +156,75 @@ li {
   .adalabers-cards {
     width: 1200px;
   }
-
-  .adalaber {
-    padding-bottom: 60px;
-    border: 1px solid red;
-  }
 }
 
-// .adalaber:nth-of-type(odd) {
+// .adalabers-cards {
 //   display: flex;
-//   flex-direction: row;
+//   flex-direction: column;
 //   justify-content: center;
 //   align-items: center;
+//   padding: 30px 0px;
+//   h2 {
+//     color: $primary-color;
+//     font-family: $font-titles;
+//     font-size: 1.5rem;
+//     line-height: 45px;
+//     width: 100%;
+//     text-align: center;
+//   }
+//   h4 {
+//     color: $dark-color;
+//     font-size: 1.25rem;
+//     font-family: $font-main;
+//     line-height: 45px;
+//   }
+//   p {
+//     color: $dark-grey;
+//     font-family: $font-main;
+//     text-align: center;
+//     line-height: 24px;
+//   }
+//   /* height: 200px;
+//     width: 443px; */
+//   li:after {
+//     content: "·";
+//   }
+//   li:nth-last-child(1):after {
+//     content: none;
+//   }
+//   a {
+//     color: $primary-color;
+//   }
 // }
 
-// .adalaber:nth-of-type(even) {
+// .team-text {
+//   text-align: center;
+// }
+
+// .team-picture {
+//   border: 3px solid $light-grey;
+//   border-radius: 4px;
+//   width: 180px;
+//   height: 180px;
+//   overflow: hidden;
+//   img {
+//     width: 100%;
+//   }
+// }
+
+// .adalaber {
 //   display: flex;
-//   flex-direction: row-reverse;
-//   justify-content: center;
+//   flex-direction: column;
 //   align-items: center;
+//   width: 100%;
+//   padding: 15px;
 // }
 
-// .adalaber:nth-of-type(odd) p {
-//   text-align: left;
-//   max-width: 440px;
-//   padding-bottom: 15px;
+// .social-media {
+//   padding-top: 20px;
 // }
-
-// .adalaber:nth-of-type(even) p {
-//   text-align: right;
-//   max-width: 440px;
-//   padding-bottom: 15px;
-// }
-
-// .adalaber:nth-of-type(odd) .team-text {
-//   /* height: 310px;
-//   max-width: 443px; */
-//   text-align: left;
-//   padding-left: 31px;
-// }
-
-// .adalaber:nth-of-type(even) .team-text {
-//   /* height: 310px;
-//   max-width: 443px; */
-//   text-align: right;
-//   padding-right: 31px;
-// }
-
-// .social-media li {
-//   padding-top: 9;
-// }
+// li {
+//   display: inline-block;
+//   line-height: 30px;
+//   padding-bottom: 30px;
 // }
