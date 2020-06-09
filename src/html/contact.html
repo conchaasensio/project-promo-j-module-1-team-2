@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./assets/css/main.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <include src="./partials/header.html"></include> -->
+    <main>
+      <div>
+        <h2>Contacto</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime autem
+          eligendi inventore vel? Cum, dolor veritatis totam sit reprehenderit
+          voluptas odit expedita libero earum molestiae corporis officiis hic
+          nobis temporibus.
+        </p>
+        <p>Todos los campos marcados con asterisco son obligatorios.</p>
+      </div>
+      <section>
+        <form action="signup" method="post">
+          <div>
+            <label for="name">Nombre completo</label>
+            <input
+              placeholder="Nombre..."
+              type="text"
+              id="name"
+              name="name"
+              required
+            />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input
+              placeholder="nombre.apellidos@mail.com"
+              type="email"
+              id="email"
+              name="email"
+              required
+            />
+          </div>
+          <div>
+            <label for="phone">Teléfono</label>
+            <input
+              placeholder="Ej: 123456789"
+              type="tel"
+              id="phone"
+              name="phone"
+            />
+          </div>
+          <div>
+            <label for="comments">Mensaje</label>
+            <textarea
+              placeholder="¿Qué necesitas?"
+              id="comments"
+              name="comments"
+              rows="8"
+              cols="80"
+              required
+            >
+            </textarea>
+          </div>
+        </form>
+      </section>
+    </main>
+    <!-- <include src="./partials/footer.html"></include> -->
+  </body>
+</html>
