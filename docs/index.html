@@ -10,7 +10,7 @@
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
       rel="stylesheet"
     />
     <script
@@ -20,8 +20,8 @@
   </head>
 
   <body>
-    <header class="header">
-      <div class="wrapper">
+    <div class="wrapper">
+      <header class="header">
         <section class="header-1">
           <h1 class="header-1-title">
             <span class="team-logo">
@@ -39,66 +39,77 @@
           <ul class="header-nav-list">
             <li class="header-nav-item"><a href="#team">EQUIPO</a></li>
             <li class="header-nav-item">
-              <a href="#about-us">QUIÉNES SOMOS</a>
+              <a href="#adalabers-cards-title">QUIÉNES SOMOS</a>
             </li>
-            <li class="header-nav-item"><a href="#contact">CONTACTO</a></li>
+            <li class="header-nav-item"><a href="./contact.html">CONTACTO</a></li>
           </ul>
         </nav>
-      </div>
-    </header>
+      </header>
+
+    </div>
     <main class="main">
       <div class="wrapper">
         <section class="hero">
           <div class="group-image">
             <img
-              src="./assets/images/team-picture.png"
+              class="image-1"
+              src="./assets/images/Tamaño-mobile.png"
               alt="Foto de equipo"
-              width="100%"
-              height="100%"
+            />
+            <img
+              class="image-2"
+              src="./assets/images/Tamaño-tablet.png"
+              alt="Foto de equipo"
+            />
+            <img
+              class="image-3"
+              src="./assets/images/Tamaño-deskpot.png"
+              alt="Foto de equipo"
             />
           </div>
           <div class="claim-title">
-            <span><b>T</b>ime to </span>
-            <span><b>R</b>einvent </span>
-            <span><b>Y</b>ourself </span>
+            <span>Time to </span>
+            <span>Reinvent </span>
+            <span>Yourself </span>
           </div>
         </section>
-        <section class="team-description">
-          <h2 id="team">EQUIPO</h2>
+
+        <section id="team" class="team-description">
+          <h2>EQUIPO</h2>
           <p>
-            Somos diversas y multidisciplinares. Hemos querido y nos hemos
-            sabido reinventar en el maravilloso mundo de la diversidad digital.
-            Nuestro bagaje pasado por ámbitos tan diversos como la biología, el
-            derecho o el trabajo social nos aportan la base para llegar a
-            cualquier público de una manera empática y comunicativa. Aunque
-            acabamos de comenzar, ¡esto no es más que el principio!
+            Somos diversas y multidisciplinares. Hemos querido y nos hemos sabido
+            reinventar en el maravilloso mundo de la diversidad digital. Nuestro bagaje
+            pasado por ámbitos tan diversos como la biología, el derecho o el trabajo
+            social nos aportan la base para llegar a cualquier público de una manera
+            empática y comunicativa. Aunque acabamos de comenzar, ¡esto no es más que el
+            principio!
           </p>
-          <div class="square"></div>
         </section>
+
+        <div class="square"></div>
         <section class="strength-weakness">
           <div class="strength">
             <h3>Fortalezas</h3>
             <p>
-              Reinvención, adaptación y programación con buena técnica y muchas
-              ganas, no nos falta la sonrisa y el buen ánimo para mejorar cada
-              día, defendemos la comunicación constante y la cooperación entre
-              nosotras y con el cliente. Comprometidas con el código tanto como
-              con nosotras mismas.
+              Reinvención, adaptación y programación con buena técnica y muchas ganas,
+              no nos falta la sonrisa y el buen ánimo para mejorar cada día, defendemos
+              la comunicación constante y la cooperación entre nosotras y con el
+              cliente. Comprometidas con el código tanto como con nosotras mismas.
             </p>
           </div>
           <div class="weakness">
             <h3>Debilidades</h3>
             <p>
-              Somos programadoras junior y aún estamos en proceso de formación
-              pero con un poco de paciencia sumado a las ganas y constancia que
-              nos sobran, ¡formamos el perfecto equipo que no deja a nadie
-              atrás!
+              Somos programadoras junior y aún estamos en proceso de formación pero con
+              un poco de paciencia sumado a las ganas y constancia que nos sobran,
+              ¡formamos el perfecto equipo que no deja a nadie atrás!
             </p>
           </div>
         </section>
-        <section class="team-introduction">
-          <h2 id="about-us">QUIÉNES SOMOS</h2>
-          <article class="member-1">
+
+        <section id="adalabers-cards-title" class="adalabers-cards">
+          <h2>QUIÉNES SOMOS</h2>
+          <article class="adalaber" id="andrea">
             <div class="team-picture">
               <img
                 src="./assets/images/foto-andrea-2.jpg"
@@ -109,11 +120,10 @@
               <h4>Andrea Clavijo</h4>
               <p>
                 Adalaber y futura programadora front-end con base de bióloga
-                computacional. Creo mucho en que nunca es tarde para aprender
-                algo nuevo y Adalab me ha dado las herramientas para ello.
-                Aficionada al séptimo arte, el baile, y, sorprendentemente, la
-                cocina. Quedaba con R, Python y sus librerías. Actualmente me
-                llevo mejor con CSS, HTML y Javascript.
+                computacional. Creo mucho en que nunca es tarde para aprender algo nuevo
+                y Adalab me ha dado las herramientas para ello. Aficionada al séptimo
+                arte, el baile, y, sorprendentemente, la cocina. Quedaba con R, Python y
+                sus librerías. Actualmente me llevo mejor con CSS, HTML y Javascript.
               </p>
               <nav class="social-media">
                 <ul>
@@ -142,9 +152,7 @@
                     ></a>
                   </li>
                   <li>
-                    <a
-                      href="mailto:andra.clavijor@gmail.com"
-                      title="Enviar correo"
+                    <a href="mailto:andra.clavijor@gmail.com" title="Enviar correo"
                       ><i class="fas fa-envelope"></i
                     ></a>
                   </li>
@@ -152,7 +160,7 @@
               </nav>
             </div>
           </article>
-          <article class="member-2">
+          <article class="adalaber" id="christina">
             <div class="team-picture">
               <img
                 src="./assets/images/foto-cristina2.png"
@@ -163,16 +171,16 @@
               <h4>Christina Lorenzo</h4>
               <p>
                 Psicóloga apasionada de las relaciones interpersonales que se ha
-                redescubierto enamorada relacionando código. Me encantan los
-                pequeños detalles, los por qués, aprender idiomas y usarlos.
-                Compartiendo cerveza siempre se cómo arreglar el mundo.
+                redescubierto enamorada relacionando código. Me encantan los pequeños
+                detalles, los por qués, aprender idiomas y usarlos. Compartiendo cerveza
+                siempre se cómo arreglar el mundo.
               </p>
               <nav class="social-media">
                 <ul>
                   <li>
                     <a
                       href="https://twitter.com/Codemaiden1
-                      "
+                        "
                       target="_blank"
                       title="Ir a twitter"
                       ><i class="fab fa-twitter"></i>
@@ -181,7 +189,7 @@
                   <li>
                     <a
                       href="https://www.linkedin.com/in/christina-lorenzo-montes-20b076b6/
-                    "
+                      "
                       target="_blank"
                       title="Ir a Linkedin"
                       ><i class="fab fa-linkedin"></i
@@ -190,7 +198,7 @@
                   <li>
                     <a
                       href="https://github.com/Cristinalorenzomontes
-                      "
+                        "
                       target="_blank"
                       title="Ir a Github"
                       ><i class="fab fa-github"></i
@@ -207,27 +215,20 @@
               </nav>
             </div>
           </article>
-          <article class="member-3">
+          <article class="adalaber" id="concha">
             <div class="team-picture">
-              <img
-                src="./assets/images/foto-concha.jpg"
-                alt="Foto de Concha Asensio"
-              />
+              <img src="./assets/images/foto-concha.jpg" alt="Foto de Concha Asensio" />
             </div>
             <div class="team-text">
               <h4>Concha Asensio</h4>
               <p>
-                Programadora Front-End junior, con experiencia en HTML, CSS,
-                JavaScript y React. Habituada a trabajar en equipo siguiendo una
-                filosofía agile, utilizando metodologías como Scrum y Kanban,
-                así como de trabajo en remoto. Mi experiencia previa como
-                Abogada, así como en departamentos de RRLL y RRHH en distintas
-                empresas, me ha permitido desarrollar otro tipo de habilidades
-                que complementan a las técnicas, tales como comunicación,
-                gestión de personas, planificación y orientación al cliente.
-                Motivada y con muchas ganas de seguir aprendiendo y
-                desarrollándome como profesional en este mundillo del desarrollo
-                Front-End.
+                Abogada reintentada en Programadora Front-End junior, con experiencia en
+                HTML, CSS, JavaScript y React. Habituada a trabajar en equipo siguiendo
+                una filosofía agile, utilizando metodologías como Scrum y Kanban, así
+                como de trabajo en remoto. Habilidades de comunicación, gestión de
+                personas, planificación y orientación al cliente. Motivada y con muchas
+                ganas de seguir aprendiendo y desarrollándome como profesional en este
+                mundillo del desarrollo web.
               </p>
               <nav class="social-media">
                 <ul>
@@ -257,9 +258,7 @@
                     ></a>
                   </li>
                   <li>
-                    <a
-                      href="mailto:conchaasensiomr@gmail.com"
-                      title="Enviar correo"
+                    <a href="mailto:conchaasensiomr@gmail.com" title="Enviar correo"
                       ><i class="fas fa-envelope"></i
                     ></a>
                   </li>
@@ -267,73 +266,18 @@
               </nav>
             </div>
           </article>
-          <article class="member-4">
+          <article class="adalaber" id="maria">
             <div class="team-picture">
-              <img
-                src="./assets/images/foto-elizabeth.jpeg"
-                alt="Foto de Elizabeth Portilla"
-              />
-            </div>
-            <div class="team-text">
-              <h4>Elizabeth Portilla</h4>
-              <p>
-                Administradora de empresas de profesión, Elizabeth se puso como
-                reto incursionar en el mundo tecnológico para así explotar sus
-                habilidades creativas, encontrando a su paso por Adalab la
-                oportunidad perfecta para convertirese en una programadora
-                front-end.
-              </p>
-              <nav class="social-media">
-                <ul>
-                  <li>
-                    <a
-                      href="https://twitter.com/lorelizta"
-                      target="_blank"
-                      title="Ir a Twitter"
-                      ><i class="fab fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="http://linkedin.com/in/elizabeth-portilla-a80a0410a"
-                      target="_blank"
-                      title="Ir a Linkedin"
-                      ><i class="fab fa-linkedin"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://github.com/lorelizta"
-                      target="_blank"
-                      title="Ir a Github"
-                      ><i class="fab fa-github"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="mailto:elizylui@hotmail.com" title="Enviar correo"
-                      ><i class="fas fa-envelope"></i
-                    ></a>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-          </article>
-          <article class="member-5">
-            <div class="team-picture">
-              <img
-                src="./assets/images/foto-maria.png"
-                alt="Foto de María Segura"
-              />
+              <img src="./assets/images/foto-maria.png" alt="Foto de María Segura" />
             </div>
             <div class="team-text">
               <h4>María Segura</h4>
               <p>
-                Educadora Social con experiencia como formadora en Nuevas
-                Tecnologías con personas en riesgo de exclusión social. En la
-                actualidad, dando el paso hacia un nuevo rumbo profesional como
-                es el Front-end en el que aportar toda mi creatividad y mis
-                ganas de seguir aprendiendo. Me encantan los gatos, la pizza y
-                las series.
+                Educadora Social con experiencia como formadora en Nuevas Tecnologías
+                con personas en riesgo de exclusión social. En la actualidad, dando el
+                paso hacia un nuevo rumbo profesional como es el Front-end en el que
+                aportar toda mi creatividad y mis ganas de seguir aprendiendo. Me
+                encantan los gatos, la pizza y las series.
               </p>
               <nav class="social-media">
                 <ul>
@@ -371,6 +315,7 @@
             </div>
           </article>
         </section>
+
       </div>
     </main>
     <footer class="footer">
@@ -392,5 +337,6 @@
         </div>
       </div>
     </footer>
+
   </body>
 </html>
