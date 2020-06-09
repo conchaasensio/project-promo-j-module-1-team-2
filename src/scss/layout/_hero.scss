@@ -16,6 +16,10 @@
   display: none;
 }
 
+.image-3 {
+  display: none;
+}
+
 .claim-title {
   background-color: $framework-color;
   position: relative;
@@ -63,6 +67,14 @@
 
   .group-image img {
     height: 550px;
+  }
+
+  .image-2 {
+    display: none;
+  }
+
+  .image-3 {
+    display: block;
   }
 
   .claim-title {
