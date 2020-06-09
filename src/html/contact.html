@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./assets/css/main.css" rel="stylesheet" />
+    <title>Codebusters</title>
+  </head>
+  <body>
+    <include src="./partials/header.html"></include>
+    <main class="main">
+      <section class="hero">
+        <div class="group-image">
+          <img
+            class="image-1"
+            src="./assets/images/Tamaño-mobile.png"
+            alt="Foto de equipo"
+          />
+        </div>
+      </section>
+
+      <div class="contact">
+        <h2>CONTACTO</h2>
+        <p class="large-text">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime autem
+          eligendi inventore vel? Cum, dolor veritatis totam sit reprehenderit
+          voluptas odit expedita libero earum molestiae corporis officiis hic
+          nobis temporibus.
+        </p>
+        <p class="small-text">
+          Todos los campos marcados con <span class="asterisk">*</span> son
+          obligatorios.
+        </p>
+      </div>
+
+      <section>
+        <form action="signup" method="post" class="contact-form">
+          <div>
+            <label class="title" for="name"
+              >Nombre completo <span class="asterisk">*</span></label
+            >
+          </div>
+          <div>
+            <input
+              placeholder="Nombre..."
+              type="text"
+              id="name"
+              name="name"
+              required
+            />
+          </div>
+          <div>
+            <label for="email">Email<span class="asterisk">*</span></label>
+          </div>
+          <div>
+            <input
+              value="nombre.apellidos@mail.com"
+              type="email"
+              id="email"
+              name="email"
+              required
+            />
+          </div>
+          <div>
+            <label for="phone">Teléfono</label>
+          </div>
+          <div>
+            <input
+              placeholder="Ej: 123456789"
+              type="tel"
+              id="phone"
+              name="phone"
+            />
+          </div>
+          <div>
+            <label for="comments">Mensaje<span class="asterisk">*</span></label>
+          </div>
+          <div>
+            <textarea
+              placeholder="¿Qué necesitas?"
+              id="comments"
+              name="comments"
+              rows="7"
+              cols="47"
+              required
+            >
+            </textarea>
+          </div>
+          <input class="button" type="submit" value="ENVIAR" />
+        </form>
+      </section>
+    </main>
+    <include src="./partials/footer.html"></include>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+body {
+  font-family: $font-main;
+  color: $dark-grey;
+}
+
+.main {
+  padding: 15px;
+}
+
+.asterisk {
+  color: $secondary-color;
+}
+
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.contact {
+  h2 {
+    font-family: $font-titles;
+    color: $primary-color;
+    line-height: 45px;
+    text-align: center;
+  }
+  .large-text {
+    text-align: center;
+    line-height: 24px;
+    padding: 0 20px;
+    margin-bottom: 30px;
+  }
+  .small-text {
+    text-align: center;
+    line-height: 24px;
+    font-size: 0.75rem;
+    margin-bottom: 58px;
+  }
+}
+
+input,
+textarea {
+  margin: 7px 0px;
+}
+
+::placeholder {
+  color: $light-grey;
+}
+
+.button {
+  background-color: $primary-color;
+  color: $light-color;
+  font-weight: 600px;
+  padding: 12px 0;
+  border-radius: 4px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}

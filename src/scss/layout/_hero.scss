@@ -1,5 +1,3 @@
-// HERO
-
 .hero {
   height: 467px;
   width: 100%;
@@ -9,6 +7,19 @@
   height: 421px;
   width: 100%;
 }
+
+.image-1 {
+  display: block;
+}
+
+.image-2 {
+  display: none;
+}
+
+.image-3 {
+  display: none;
+}
+
 .claim-title {
   background-color: $framework-color;
   position: relative;
@@ -16,7 +27,8 @@
   transform: translate(0%, -50%);
   margin: 0 15px;
   padding: 10px 15px;
-  & span {
+
+  span {
     display: block;
     text-align: left;
     line-height: 1.389rem;
@@ -27,23 +39,28 @@
 }
 
 @media all and (min-width: 768px) {
-  //HERO
-
   .hero {
     height: 421px;
+  }
+
+  .image-1 {
+    display: none;
+  }
+
+  .image-2 {
+    display: block;
   }
 
   .claim-title {
     opacity: 80%;
     width: 441px;
-    transform: translate(0%, -105%);
+    transform: translate(0%, -100%);
     margin: 0 45px;
     padding: 10px 30px;
   }
 }
 
 @media all and (min-width: 1200px) {
-  //HERO
   .hero {
     height: 550px;
   }
@@ -52,12 +69,19 @@
     height: 550px;
   }
 
+  .image-2 {
+    display: none;
+  }
+
+  .image-3 {
+    display: block;
+  }
+
   .claim-title {
     height: 90px;
     width: 574px;
     margin: 0 138px;
-    transform: translate(0%, -103%);
-    & span {
+    span {
       line-height: 1.458rem;
       font-size: 24px;
     }
