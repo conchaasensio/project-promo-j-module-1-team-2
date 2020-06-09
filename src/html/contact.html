@@ -4,12 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./assets/css/main.css" rel="stylesheet" />
-    <title>Document</title>
+    <title>Codebusters</title>
   </head>
   <body>
     <!-- <include src="./partials/header.html"></include> -->
-    <main>
-      <div>
+    <main class="main">
+      <section class="hero">
+        <div class="group-image">
+          <img
+            class="image-1"
+            src="./assets/images/Tamaño-mobile.png"
+            alt="Foto de equipo"
+          />
+        </div>
+      </section>
+
+      <div class="contact">
         <h2>Contacto</h2>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime autem
@@ -19,10 +29,15 @@
         </p>
         <p>Todos los campos marcados con asterisco son obligatorios.</p>
       </div>
+
       <section>
-        <form action="signup" method="post">
+        <form action="signup" method="post" class="contact-form">
           <div>
-            <label for="name">Nombre completo</label>
+            <label class="title" for="name"
+              >Nombre completo <span class="asterisk">*</span></label
+            >
+          </div>
+          <div>
             <input
               placeholder="Nombre..."
               type="text"
@@ -32,9 +47,11 @@
             />
           </div>
           <div>
-            <label for="email">Email</label>
+            <label for="email">Email<span class="asterisk">*</span></label>
+          </div>
+          <div>
             <input
-              placeholder="nombre.apellidos@mail.com"
+              value="nombre.apellidos@mail.com"
               type="email"
               id="email"
               name="email"
@@ -43,6 +60,8 @@
           </div>
           <div>
             <label for="phone">Teléfono</label>
+          </div>
+          <div>
             <input
               placeholder="Ej: 123456789"
               type="tel"
@@ -51,7 +70,9 @@
             />
           </div>
           <div>
-            <label for="comments">Mensaje</label>
+            <label for="comments">Mensaje<span class="asterisk">*</span></label>
+          </div>
+          <div>
             <textarea
               placeholder="¿Qué necesitas?"
               id="comments"
@@ -62,6 +83,7 @@
             >
             </textarea>
           </div>
+          <input type="submit" value="ENVIAR" />
         </form>
       </section>
     </main>
