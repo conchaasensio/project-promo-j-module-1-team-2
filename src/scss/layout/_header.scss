@@ -7,6 +7,7 @@
   top: 0;
   z-index: 999;
   opacity: 95%;
+  max-width: 1200px;
 }
 
 .header-1 {
@@ -17,6 +18,7 @@
   background-color: $primary-color;
   text-align: center;
   padding: 15px 80px 15px 80px;
+  height: 60px;
 }
 
 .header-1-title {
@@ -46,6 +48,7 @@
   background-color: $secondary-color;
   display: block;
   padding: 8px 17px 8px 16px;
+  height: 45px;
 }
 
 .header-nav-list {
@@ -70,12 +73,11 @@
 
   .header-1 {
     display: flex;
+    justify-content: flex-start;
     align-items: center;
     flex-grow: 1;
     text-align: left;
-    padding-left: 45px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px 0 15px 45px;
   }
 
   .header-1-title {
@@ -87,9 +89,10 @@
     background-color: $primary-color;
     width: 60%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    padding-right: 45px;
+    padding: 16px 45px 14px 0;
+    height: 60px;
   }
 
   .header-nav-list {
@@ -106,10 +109,10 @@
   // HEADER
 
   .header-1 {
-    padding-left: 142px;
+    padding: 15px 0 15px 142px;
   }
 
   .header-nav {
-    padding-right: 138px;
+    padding: 16px 138px 14px 0;
   }
 }
