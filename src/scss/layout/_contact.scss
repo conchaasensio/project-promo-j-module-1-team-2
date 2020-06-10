@@ -1,6 +1,8 @@
 .body-contact {
   font-family: $font-main;
   color: $dark-grey;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .asterisk {
@@ -79,10 +81,6 @@ textarea {
   border: 1px solid $light-grey;
 }
 
-::placeholder {
-  color: $light-grey;
-}
-
 .button {
   background-color: $primary-color;
   color: $light-color;
@@ -107,12 +105,35 @@ textarea {
 }
 
 @media all and (min-width: 1200px) {
+  .group-image-contact {
+    height: 400px;
+  }
   .contact {
     padding: 0 300px;
   }
   .contact-form {
     padding: 0 300px;
   }
+  .email-tel {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 20px;
+    grid-gap: 0 44px;
+  }
+
+  .phone-label {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+  }
+  .email-input {
+    grid-column: 1 / 3;
+  }
+
+  .phone-input {
+    grid-column: 3 / 4;
+    // grid-row: 2 / 3;
+  }
+
   .button {
     width: 278px;
   }

@@ -34,57 +34,45 @@
 
       <section>
         <form action="signup" method="post" class="contact-form">
-          <div>
-            <label for="name"
-              >Nombre completo <span class="asterisk">*</span></label
+          <label for="name"
+            >Nombre completo <span class="asterisk">*</span></label
+          >
+          <input
+            placeholder="Nombre..."
+            type="text"
+            id="name"
+            name="name"
+            required
+          />
+          <div class="email-tel">
+            <label class="email-label" for="email"
+              >Email <span class="asterisk">*</span></label
             >
-          </div>
-          <div>
             <input
-              placeholder="Nombre..."
-              type="text"
-              id="name"
-              name="name"
-              required
-            />
-          </div>
-          <div>
-            <label for="email">Email <span class="asterisk">*</span></label>
-          </div>
-          <div>
-            <input
+              class="email-input"
               value="nombre.apellidos@mail.com"
               type="email"
               id="email"
               name="email"
               required
             />
-          </div>
-          <div>
-            <label for="phone">Teléfono</label>
-          </div>
-          <div>
+            <label class="phone-label" for="phone">Teléfono</label>
             <input
+              class="phone-input"
               placeholder="Ej: 123456789"
               type="tel"
               id="phone"
               name="phone"
             />
           </div>
-          <div>
-            <label for="comments"
-              >Mensaje <span class="asterisk">*</span></label
-            >
-          </div>
-          <div>
-            <textarea
-              placeholder="¿Qué necesitas?"
-              id="comments"
-              name="comments"
-              required
-            >
-            </textarea>
-          </div>
+          <label for="comments">Mensaje <span class="asterisk">*</span></label>
+          <textarea
+            placeholder="¿Qué necesitas?"
+            id="comments"
+            name="comments"
+            required
+          >
+          </textarea>
           <input class="button" type="submit" value="ENVIAR" />
         </form>
       </section>
