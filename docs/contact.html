@@ -6,7 +6,7 @@
     <link href="./assets/css/main.css" rel="stylesheet" />
     <title>Codebusters</title>
   </head>
-  <body>
+  <body class="body-contact">
     <header class="header">
       <section class="header-1">
         <h1 class="header-1-title">
@@ -32,12 +32,12 @@
       </nav>
     </header>
 
-    <main class="main">
-      <section class="hero">
-        <div class="group-image">
+    <main class="main-contact">
+      <section class="hero-contact">
+        <div class="group-image-contact">
           <img
-            class="image-1"
-            src="./assets/images/Tamaño-mobile.png"
+            class="image-1-contact"
+            src="./assets/images/tamaño-deskpot-borde-gris.png"
             alt="Foto de equipo"
           />
         </div>
@@ -46,10 +46,9 @@
       <div class="contact">
         <h2>CONTACTO</h2>
         <p class="large-text">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime autem
-          eligendi inventore vel? Cum, dolor veritatis totam sit reprehenderit
-          voluptas odit expedita libero earum molestiae corporis officiis hic
-          nobis temporibus.
+          Reinventándonos desde los cimientos. Si te gusta nuestro perfil, no
+          dudes en contactar con nosotras mediante el siguiente formulario.
+          Nuestro equipo de adalabers espera con los brazos abiertos.
         </p>
         <p class="small-text">
           Todos los campos marcados con <span class="asterisk">*</span> son
@@ -60,7 +59,7 @@
       <section>
         <form action="signup" method="post" class="contact-form">
           <div>
-            <label class="title" for="name"
+            <label for="name"
               >Nombre completo <span class="asterisk">*</span></label
             >
           </div>
@@ -74,7 +73,7 @@
             />
           </div>
           <div>
-            <label for="email">Email<span class="asterisk">*</span></label>
+            <label for="email">Email <span class="asterisk">*</span></label>
           </div>
           <div>
             <input
@@ -97,15 +96,15 @@
             />
           </div>
           <div>
-            <label for="comments">Mensaje<span class="asterisk">*</span></label>
+            <label for="comments"
+              >Mensaje <span class="asterisk">*</span></label
+            >
           </div>
           <div>
             <textarea
               placeholder="¿Qué necesitas?"
               id="comments"
               name="comments"
-              rows="7"
-              cols="47"
               required
             >
             </textarea>
