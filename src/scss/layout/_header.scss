@@ -77,9 +77,7 @@
     align-items: center;
     flex-grow: 1;
     text-align: left;
-    padding-left: 45px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px 0 15px 45px;
   }
 
   .header-1-title {
@@ -93,7 +91,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 45px;
+    padding: 16px 45px 14px 0;
     height: 60px;
   }
 
@@ -111,10 +109,10 @@
   // HEADER
 
   .header-1 {
-    padding-left: 142px;
+    padding: 15px 0 15px 142px;
   }
 
   .header-nav {
-    padding-right: 138px;
+    padding: 16px 138px 14px 0;
   }
 }
