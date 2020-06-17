@@ -2,35 +2,4 @@
   max-width: 1200px;
   margin: auto;
   width: 100%;
-  .team-description {
-    padding: 30px 15px;
-  }
-
-  .strength-weakness {
-    padding: 0 15px;
-  }
-}
-
-@media all and (min-width: 768px) {
-  .wrapper {
-    .team-description {
-      padding: 0 45px;
-    }
-
-    .strength-weakness {
-      padding: 0 45px 13px;
-    }
-  }
-}
-
-@media all and (min-width: 1200px) {
-  .wrapper {
-    .team-description {
-      padding: 45px 138px 60px;
-    }
-
-    .strength-weakness {
-      padding: 0 138px 10px;
-    }
-  }
 }

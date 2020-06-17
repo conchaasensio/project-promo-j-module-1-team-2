@@ -6,7 +6,7 @@
   justify-content: space-evenly;
   align-items: center;
   height: 100%;
-  padding: 30px 0px;
+  padding: 30px 15px;
 
   h2 {
     color: $secondary-color;
@@ -37,7 +37,7 @@
 
 @media all and (min-width: 768px) {
   .team-description {
-    padding: 45px 0px 30px;
+    padding: 45px 45px 30px;
     height: 255px;
   }
 }
@@ -45,6 +45,7 @@
 @media all and (min-width: 1200px) {
   .team-description {
     height: 300px;
+    padding: 45px 138px 60px;
 
     p {
       padding: 0 161px 0;

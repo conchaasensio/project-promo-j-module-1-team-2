@@ -6,6 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 15px;
 
   h3 {
     color: $primary-color;
@@ -47,6 +48,7 @@
     flex-direction: row;
     justify-content: center;
     height: 333px;
+    padding: 0 45px 13px;
 
     h3 {
       padding: 0;
@@ -73,6 +75,7 @@
 @media all and (min-width: 1200px) {
   .strength-weakness {
     height: 309px;
+    padding: 0 138px 10px;
   }
 
   .strength {
