@@ -38,6 +38,21 @@
   text-align: center;
   position: absolute;
   transform: translate(-30px, -10px);
+  animation-duration: 1s;
+  animation-name: intro-logo;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+@keyframes intro-logo {
+  from {
+    transform: scale(10) rotate(-150deg);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 .team-logo img {
