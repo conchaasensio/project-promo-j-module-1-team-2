@@ -44,6 +44,9 @@
   width: 100%;
 }
 
+.team-name {
+  text-transform: uppercase;
+}
 .header-nav {
   background-color: $secondary-color;
   display: block;
@@ -61,6 +64,9 @@
   justify-content: space-between;
   align-items: center;
   text-align: center;
+}
+.header-nav-item {
+  text-transform: uppercase;
 }
 
 @media all and (min-width: 768px) {
