@@ -77,6 +77,10 @@
     padding: 5px;
   }
 
+  .footer-nav ul li:hover {
+    text-decoration: underline;
+  }
+
   .logo {
     grid-column: 1;
     grid-row-start: 4;
