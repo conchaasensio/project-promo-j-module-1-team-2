@@ -6,28 +6,30 @@
     <link href="./assets/css/main.css" rel="stylesheet" />
     <title>Codebusters</title>
   </head>
-  <body class="body-contact">
-    <header class="header">
+  <body>
+    <header class="header" id="home">
       <section class="header-1">
         <h1 class="header-1-title">
           <span class="team-logo">
-            <img
-              src="./assets/images/icono-codebusters.png"
-              alt="Icono del equipo"
-              width="60px"
-              height="50px"
-            />
+            <a href="index.html#home" title="Ir a la página principal">
+              <img
+                src="./assets/images/icono-codebusters.png"
+                alt="Icono del equipo"
+                width="60px"
+                height="50px"
+              />
+            </a>
           </span>
-          <span>CODEBUSTERS</span>
+          <span class="team-name">Codebusters</span>
         </h1>
       </section>
       <nav class="header-nav">
         <ul class="header-nav-list">
-          <li class="header-nav-item"><a href="index.html#motto">EQUIPO</a></li>
+          <li class="header-nav-item"><a href="index.html#motto">Equipo</a></li>
           <li class="header-nav-item">
-            <a href="index.html#previous-adalabers">QUIÉNES SOMOS</a>
+            <a href="index.html#previous-adalabers">Quiénes somos</a>
           </li>
-          <li class="header-nav-item"><a href="contact.html">CONTACTO</a></li>
+          <li class="header-nav-item"><a href="contact.html">Contacto</a></li>
         </ul>
       </nav>
     </header>
@@ -83,6 +85,7 @@
               id="email"
               name="email"
               required
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
             />
             <label class="phone-label" for="phone">Teléfono</label>
             <input
@@ -113,17 +116,18 @@
         </div>
         <nav class="footer-nav">
           <ul>
-            <li><a href="#team">EQUIPO</a></li>
-            <li><a href="#about-us">QUIÉNES SOMOS</a></li>
-            <li><a href="#contact">CONTACTO</a></li>
+            <li><a href="index.html#team">Equipo</a></li>
+            <li><a href="index.html#previous-adalabers">Quiénes somos</a></li>
+            <li><a href="contact.html">Contacto</a></li>
           </ul>
         </nav>
         <div class="logo">
-          <a href="#" title="Ir a la Home">
+          <a href="index.html#home" title="Ir a la Home">
             <img src="./assets/images/logo-adalab.png" alt="logo Adalab" />
           </a>
         </div>
       </div>
     </footer>
+
   </body>
 </html>
