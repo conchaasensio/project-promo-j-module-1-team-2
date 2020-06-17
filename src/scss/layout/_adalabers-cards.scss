@@ -33,6 +33,11 @@
   }
   a {
     color: $primary-color;
+    transition: color ease 1s;
+
+    &:hover {
+      color: $dark-grey;
+    }
   }
 }
 
@@ -48,7 +53,11 @@
   width: 180px;
   height: 180px;
   overflow: hidden;
+  transition: border-color ease 0.5s;
 
+  &:hover {
+    border-color: $primary-color;
+  }
   img {
     width: 100%;
   }
