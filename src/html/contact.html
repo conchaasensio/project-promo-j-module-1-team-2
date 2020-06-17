@@ -54,11 +54,12 @@
             >
             <input
               class="email-input"
-              value="nombre.apellidos@mail.com"
+              placeholder="nombre.apellidos@mail.com"
               type="email"
               id="email"
               name="email"
               required
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
             />
             <label class="phone-label" for="phone">Teléfono</label>
             <input
@@ -67,6 +68,7 @@
               type="tel"
               id="phone"
               name="phone"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
             />
           </div>
           <label for="comments">Mensaje <span class="asterisk">*</span></label>
